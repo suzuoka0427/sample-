@@ -1,0 +1,74 @@
+html{
+   scroll-behavior: smooth;
+ }
+
+
+.wrap {
+	overflow: hidden;
+}
+
+header{
+   position:fixed;
+   top:0;
+   z-index:10;
+   background-color:#FF8F22;
+   opacity:0.8;
+   color:white;
+}
+
+
+header a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+body{
+   margin: 0;
+}
+
+.cafe{
+   font-size:24px;
+}
+
+
+p{
+  line-height:120%;
+}
+
+.staff{
+  padding-bottom:10%;
+  text-align: center;
+}
+.staff-kao{
+   text-align: center;
+}
+.staff-pono{
+   color:#0066FF;
+   font-weight:600;
+   text-decoration:none;
+   text-align: center;
+}
+
+ 
+
+.staff-jiko p{
+  line-height:120%;
+  text-align: center;
+}
+
+
+footer{
+   background-color:black;
+   color:white;
+   width:100%;
+   position:fixed;
+   top:90%;
+   z-index:10;
+   opacity:0.8;
+}
+
+footer p{
+  font-size:20px;
+}
